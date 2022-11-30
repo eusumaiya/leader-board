@@ -1,5 +1,6 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
    /************
        common-style
             *************/
@@ -10,7 +11,8 @@
  }
  main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+   align-items: center;
  }
 
 
@@ -26,6 +28,7 @@ top players start
     background-color: #FFFFFF;
     width: 870px;
     padding: 30px;
+    margin-top: 21px;
 
 }
 .players{
@@ -94,6 +97,39 @@ padding-left: 16px;
 font-size: smaller;
 
 }
+/********** 
+   Latest Course start 
+          ***************/
+.course{
+    color: #562EFF;
+    padding-left: 50px;
+    
+}
+.course-img img{
+    width: 224px;
+    height: 104px;
+    padding-left: 50px;
+}
+.star{
+    display: flex;
+}
+.fa-star{
+    font-size: 10px;
+}
 
+.guide{
+    font-size: smaller;
+    padding-left: 50px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 
 
