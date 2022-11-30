@@ -1,0 +1,23 @@
+/* top players start */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 56px;
+    
+
+}
+.player{
+    display: flex;
+   align-items: center;
+   padding-top: 30px;
+}
+.player img{
+    
+
+    width: 56px;
+    height: 56px;
+    
+}
+.player-name{
+    padding-left: 15px;
+}
