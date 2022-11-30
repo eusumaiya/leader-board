@@ -1,8 +1,38 @@
-/* top players start */
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+   /************
+       common-style
+            *************/
+ body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #e5e4e4;;
+
+ }
+ main{
+    display: flex;
+    justify-content: center;
+ }
+
+
+/************
+top players start
+      ****************** */
+.team-name{
+    color: #562EFF;
+    padding-left: 55px;
+    margin-top: 3px;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+
+}
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-left: 56px;
+    padding-bottom: 30px;
     
 
 }
@@ -20,4 +50,50 @@
 }
 .player-name{
     padding-left: 15px;
+    color: #000000;
+    font-family: 'Poppins';
+    font-size: 13px;
+
 }
+hr{
+    border: 1px solid #D1D1D1;
+
+
+}
+/****************
+     top blogs
+         ****************/
+.top-blog{
+    color: #562EFF;
+    padding-left: 50px;
+}
+.two-article{
+    display: flex;
+    padding-left: 50px;
+    
+}
+.adjust{
+    display: flex;
+}
+.position{
+    padding-left: 45px;
+}
+.blog img{
+    width: 177px;
+    height: 117px;
+    left: 315px;
+    top: 507px;
+    padding-top: 20px;
+}
+.title{
+    width: 164px;
+height: 68px;
+left: 508px;
+top: 507px;
+padding-left: 16px;
+font-size: smaller;
+
+}
+
+
+
